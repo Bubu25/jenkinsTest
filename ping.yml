@@ -1,0 +1,9 @@
+---
+
+  - name: test ping
+    hosts: ubuntu
+    tasks:
+    - name: ping
+      ping:
+
+...
